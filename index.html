@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Search movie</title>
+</head>
+
+<body>
+    <h2>Search:</h2>
+    <div class="container-search">
+        <div class="wrap">
+            <label for="title">Title:</label>
+            <input type="text" name="title" id="title">
+        </div>
+        <div class="wrap">
+            <label for="">Type:</label>
+            <select name="select" id="type">
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+                <option value="episode">Episode</option>
+            </select>
+        </div>
+        <input type="button" name="button" class="button-search"
+            style="width: 100%; height: 35px; border-radius: 3px; border-width: 1px;" value="Search" id="button">
+        <p id="error"></p>
+    </div>
+
+    <div class="container">
+        <h2 style="display: none;">Films</h2>
+        <div class="container-body"></div>
+    </div>
+    <button class="btn-show-movies">показать еще</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

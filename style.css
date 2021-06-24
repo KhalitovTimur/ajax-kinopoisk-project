@@ -1,0 +1,119 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #ffe2d6;
+}
+
+h2 {
+	text-align: center;
+}
+
+label {
+	font-weight: bold;
+}
+
+input:not(#button),
+select {
+	width: 255px;
+	height: 30px;
+	
+	padding: 0px;
+	border-radius: 3px;
+	border-width: 1px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+}
+
+li {
+	display: flex;
+}
+
+label,
+input {
+	display: block;
+}
+
+.btn-show-movies {
+	display: none;
+	margin: 0 auto;
+	border-radius: 3px;
+	border-width: 1px;
+}
+
+.container-search {
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+#error {
+	font-size: 10px;
+	color: red;
+	text-align: center;
+}
+
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0px 20px 0px;
+}
+
+.container-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.wrap-movie {
+	display: flex;
+	justify-content: space-around;
+
+	width: 350px;
+	height: 200px;
+	
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.poster {
+	width: 156px;
+	padding-right: 15px;
+}
+
+.button {
+	width: 150px;
+	height: 30px;
+	border-radius: 3px;
+	border-width: 1px;
+}
+.button:hover,
+.button-search:hover,
+.btn-show-movies:hover {
+	cursor: pointer;
+	background-color: chartreuse;
+}
+
+
+.wrap-info {
+	display: flex;
+	width: 700px;
+	margin: 15px auto;
+
+	border: 1px solid gray;
+	padding: 15px;
+}
+
+.black-color {
+	width: 57px;
+	font-weight: 800;
+	margin-right: 80px;
+}
+
+p:not(.black-color) {
+	word-break: break-all;
+}
